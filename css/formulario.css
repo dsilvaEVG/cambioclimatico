@@ -20,7 +20,7 @@ header > h1 {
 	margin-block: 0px 0px; /* Sin este comando, me creaba un espacio por 
 							encima de la imagen en chrome*/
 	line-height: 125px; /* Mismo tamaño que la imagen del header*/
-	font-size: 3vw; /* Aumenta el tamaño de la fuente, ajustado al tamaño de la imagen */
+	font-size: 2em; /* Aumenta el tamaño de la fuente, ajustado al tamaño de la imagen */
 	color: white; /* Color blanco para hacer contraste */
 	
 	/* Pongo sombra para resaltar ligeramente el texto */
