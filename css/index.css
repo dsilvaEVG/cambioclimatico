@@ -3,8 +3,8 @@
 /*Este es el estilo que tendrá por defecto toda la página*/
 body{
 	font-family: Verdana, sans-serif; /*Esta es la fuente elegida para la web*/
-	background-color: #84b3d3; /*Color por defecto para el fondo. Azul claro*/
-	margin: 0px; /*Quito por defecto todos los márgenes que puedan haber*/
+	background-color: #ccdbfd; /*Color por defecto para el fondo. Azul claro*/
+	margin: 0 auto; /*Centrado de página web*/
 	max-width: 1280px; /*Resolución exigida: 1280px*/
 }
 
@@ -64,19 +64,21 @@ table {
 table, th, tr, td{
 	border: solid; /*Borde normal*/
 	border-collapse: collapse; /*Uno los bordes de cada celda */
-	color: white; /*Mantengo el mismo color que el de los textos*/
+	color: #2a5791; /* Mismo color que la barra de navegación*/
 }
 
 /*A la primera fila le añado un poco mas de altura y el texto lo pongo en negrita*/
 th{
-	height: 40px; 
+	height: 35px; 
 	font-weight: bold;
+	background-color: #8da9c4;
 }
 
 /*Para las otras filas*/
 td{
 	text-align: center; /*Alineacion horizontal al centro*/
-	height: 30px; /*Altura de las celdas*/
+	height: 25px; /*Altura de las celdas*/
+	background-color: white;
 } 
 
 /*Ancho para la primera columna*/
