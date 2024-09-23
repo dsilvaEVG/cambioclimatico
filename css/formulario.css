@@ -3,8 +3,8 @@
 /*Este es el estilo que tendrá por defecto toda la página*/
 body{
 	font-family: Verdana, sans-serif; /*Esta es la fuente elegida para la web*/
-	background-color: #84b3d3; /*Color por defecto para el fondo. Azul claro*/
-	margin: 0px; /*Quito por defecto todos los márgenes que puedan haber*/
+	background-color: #ccdbfd; /*Color por defecto para el fondo. Azul claro*/
+	margin: 0 auto; /*Quito por defecto todos los márgenes que puedan haber*/
 	max-width: 1280px; /*Resolución exigida: 1280px*/
 }
 
@@ -57,13 +57,13 @@ a{
 
 /*Al igual que en articulo.css, el centro del main va en un azul más oscuro*/
 main{
-	background-color: #29586c; /*Color de un azul más oscuro que el del body, pero distinto de nav*/
+	background-color: #8da9c4; /*Color de un azul más oscuro que el del body, pero distinto de nav*/
 	padding: 50px; /*Espaciado entre el texto y el borde del main*/
-	color: white; /*Color de texto blanco, como en el resto de la página*/
-	font-weight: bold; /*Estilo negrita*/
+	color: #2a5791; /*Color de texto blanco, como en el resto de la página*/
+	/*font-weight: bold;*/ /*Estilo negrita*/
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; /*Cambio de fuente respecto a la cabecera*/
 	max-width: 768px; /*Ancho del contenedor*/
 	margin: auto; /*Espacio a los lados para centrar el contenedor de manera horizontal */
-
 }
 
 /*El texto que indica el formulario*/
