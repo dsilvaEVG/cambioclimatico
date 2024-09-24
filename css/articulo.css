@@ -2,9 +2,9 @@
 
 /*Este es el estilo que tendrá por defecto toda la página*/
 body{
-	font-family: Verdana, sans-serif; /*Esta es la fuente elegida para la web*/
+	font-family: Verdana, sans-serif; /*Fuente genérica*/
 	background-color: #ccdbfd; /*Color por defecto para el fondo. Azul claro*/
-	margin: 0 auto; /*Quito por defecto todos los márgenes que puedan haber*/
+	margin: 0 auto; /*Quito por defecto todos los márgenes que puedan haber y centro todo el contenido*/
 	max-width: 1280px; /*Resolución exigida: 1280px*/
 }
 
@@ -50,7 +50,7 @@ div{
 a{
 	color: white; 
 	line-height: 30px; 
-	text-decoration: none; 
+	text-decoration: none; /* Para quitar los enlaces en azul por defecto*/
 	font-weight: bold; 
 	padding: 3.5px 15px; 
 }
@@ -59,9 +59,9 @@ a{
 main{
 	background-color: #8da9c4; /*Color de un azul más oscuro que el del body, pero distinto de nav*/
 	padding: 50px; /*Espaciado entre el texto y el borde del main*/
-	color: #2a5791; /*Color de texto blanco, como en el resto de la página*/
+	color: #2a5791; /*Color de texto azul oscuro, como en el resto de la página*/
 	/*font-weight: bold;*/ /*Estilo negrita*/
-	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; /*Cambio de fuente respecto a la cabecera*/
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; /*Cambio de fuente específico para main*/
 	max-width: 768px; /*Ancho del contenedor*/
 	margin: auto; /*Espacio a los lados para centrar el contenedor de manera horizontal */
 
@@ -95,9 +95,9 @@ p {
 
 /*Formato de las listas*/
 li {
-	font-style: italic; 
+	font-style: italic; /* Cursiva */
 	margin-bottom: 20px; /*El margen inferior sera de menor tamaño que en el artículo*/
-	background-color: #ccdbfd;
+	background-color: #ccdbfd; 
 }
 
 /*Vamos a destacar algunas palabras del artículo*/
