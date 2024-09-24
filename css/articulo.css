@@ -95,8 +95,9 @@ p {
 
 /*Formato de las listas*/
 li {
-	font-weight: normal; /*Quitamos la negrita*/
+	font-style: italic; 
 	margin-bottom: 20px; /*El margen inferior sera de menor tamaño que en el artículo*/
+	background-color: #ccdbfd;
 }
 
 /*Vamos a destacar algunas palabras del artículo*/
